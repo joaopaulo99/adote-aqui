@@ -1,0 +1,52 @@
+BOdy, ul, li{
+    margin: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+a {
+    text-decoration: none;
+}
+.container a:hover{
+    color: red;
+    transition-delay: font-size: 30px;
+    transition-delay:
+}
+
+.container{
+
+    color: white;
+    background-color: rgb(1, 18, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 20px;
+}
+
+.container a{
+    color: white;
+}
+
+body{
+    margin-left: 10px;
+    font-family: 'Anton', sans-serif;
+}
+.menu{
+    display: flex;
+    margin-left: 10px;
+
+}
+@media (max-width: 600px)
+ {
+    p {
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .container{ background-color: rgb(1, 18, 51);}
+}
+
+Body{ background-image: url(https://love.doghero.com.br/wp-content/uploads/2018/06/shutterstock_1058092325.jpg);}
+ body{ background-size: 100%;}
