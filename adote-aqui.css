@@ -9,8 +9,7 @@ a {
 }
 .container a:hover{
     color: red;
-    transition-delay: font-size: 30px;
-    transition-delay:
+    font-size: 30px;
 }
 
 .container{
