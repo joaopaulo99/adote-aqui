@@ -7,6 +7,15 @@ BOdy, ul, li{
 a {
     text-decoration: none;
 }
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
 .container a:hover{
     color: red;
     font-size: 30px;
@@ -36,6 +45,9 @@ body{
     margin-left: 10px;
 
 }
+.menu li{
+    margin-left: 10px;
+}
 @media (max-width: 600px)
  {
     p {
@@ -49,3 +61,19 @@ body{
 
 Body{ background-image: url(https://love.doghero.com.br/wp-content/uploads/2018/06/shutterstock_1058092325.jpg);}
  body{ background-size: 100%;}
+
+ /* CSS FLEX BOX 1*/
+
+ .flex {
+     display: flex;
+     flex-wrap:wrap;
+     max-width: 900px;
+     margin: 0 auto;
+ }
+
+ .flex > div {
+     flex: 1 1 250px;
+     margin: 10px;
+     max-width: 250px; 
+     max-height: 250px;
+ }
